@@ -1,5 +1,9 @@
 *.class
 
+_site
+.DS_Store
+.sass-cache
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 

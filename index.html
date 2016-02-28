@@ -2,22 +2,26 @@
 layout: default
 ---
 
-<div class="home">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-10">
+          {% for post in site.posts %}
+          <div class="panel panel-default">
+              <div class="panel-body">
+                <p><a class="lead" href="{{ post.url }}">{{ post.title }}</a></p>
+                {% if post.summary %}
+                <p>{{ post.summary }}</p>
+                {% else %}
+                <p>{{ post.excerpt }}</p>
+                {% endif %}
+              </div>
+              <div class="panel-footer">Panel footer</div>
+          </div>
+          {% endfor %}
+        </div>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+        <div class="col-md-2">
+            &nbsp;
+        </div>
+    </div>
 </div>
