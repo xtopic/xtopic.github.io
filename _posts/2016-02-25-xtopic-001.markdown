@@ -2,8 +2,20 @@
 layout: post
 title:  "GitHub宿主+Jekyll 开篇!"
 date:   2016-02-25 17:38:32 +0800
-categories: jekyll update
+categories: xtopic
 ---
 
 GitHub主页+Jekyll开篇了~~
+<p/>
+<code>
+这是一个代码
+这是二个代码
+</code>
+<pre>
+这个又是一端HTML代码了
+哈哈，你看到了吗？
+</pre>
 
+**哈哈哈哈**
+
+哈哈<strong>哈哈哈哈</strong>哈
