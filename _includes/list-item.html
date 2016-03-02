@@ -1,0 +1,7 @@
+<p><a class="lead" href="{{ include.post.url }}">{{ include.post.title }}</a></p>
+{% if include.post.summary %}
+  <p>{{ include.post.summary }}</p>
+{% else %}
+  {{ include.post.excerpt }}
+{% endif %}
+<hr/>

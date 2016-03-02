@@ -1,9 +1,0 @@
----
-layout: post
-title:  "GitHub宿主+Jekyll 开篇!"
-date:   2016-02-28 17:38:32
-category: mmimg
----
-
-GitHub主页+Jekyll开篇了~~
-<code>哈哈，这是真的吗？</code>

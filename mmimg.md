@@ -1,7 +1,8 @@
 ---
 layout: category
+permalink: /mmimg/
 ---
 
-{% for post in site.posts %}
+{% for post in site.categories.mmimg %}
   {% include list-item.html post=post %}
 {% endfor %}
